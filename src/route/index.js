@@ -7,11 +7,11 @@ export const router = new Router({
     routes : [
         {
             path: '/test',
-            component: ()=> import("../pages/test/Test.vue")
+            component: ()=> import("../h5pages/test/Test.vue")
         },
         {
             path: '/check',
-            component: ()=> import("../pages/check/Check.vue")
+            component: ()=> import("../h5pages/check/Check.vue")
         }
     ]
 })
