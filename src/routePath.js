@@ -26,6 +26,10 @@ export const routerPath = new Router({
             component: ()=> import("./h5pages/element/Element.vue")
         },
         {
+            path: '/countries',
+            component: ()=> import("./h5pages/countries/CountryCode.vue")
+        },
+        {
             path: '/wxpublic',
             component: ()=> import("./wxpublic/WxPublic.vue")
         },

@@ -89,7 +89,7 @@ export default {
       console.log(this.ruleForm, "============");
       const array = ['pass','checkpass','age']
         if(this.ruleForm['pass'] && this.ruleForm !== '@123'){
-
+          console.log('this.ruleForm !== @123')
         }
     //   const array = Object.keys(this.ruleForm).map((item) => item) || [];
       console.log(
